@@ -1,0 +1,129 @@
+body {
+  background: #EEEEEE;
+  color: #FF6464;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+h1 {
+  color: #FF6464;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h1, h2, h3 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #91C483;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+a:hover {
+  color: #FFE162;
+  cursor: pointer;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.btn-yellow {
+  background-color: #91C483;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+#intro p {
+  margin-bottom: 40px;
+}
+
+.fa-github-square:before {
+  font-size: 40px;
+}
+
+.fa-facebook-square {
+  font-size: 40px;
+}
+
+.fa-instagram {
+  font-size: 40px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
